@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.otp {
+  display: flex;
+  justify-content: space-between;
+  width: 35rem;
+}
+.OtpInput {
+  display: flex;
+  justify-content: space-between;
+}
+.OtpInput input {
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 1.30rem;
+  border: 2px solid rgb(193, 191, 191);
+  color: rgb(156 163 175);
+  border-radius: 0.25rem;
+}
+.spin-none::-webkit-inner-spin-button,
+.spin-none::-webkit-outer-spin-button {
+  appearance: none;
+}
+.OtpInput input:focus {
+  border-color: rgb(51 65 85);
+  color: rgb(55 65 81);
+}
+.text {
+  margin-bottom: 4rem;
+}
+button{
+  margin-top: 4rem;
+  padding: 15px 50px;
+  background-color: #a527ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:active {
+  transform: scale(0.9);
+}
+.btn-icon{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.main{
+  border-radius: 1%;
+  padding: 3rem;
+  background-color: white;
+}
+.top{
+  padding: 4rem;
+  background-color: rgb(227, 227, 226);
+}
+
+
+
+
+
+
+
